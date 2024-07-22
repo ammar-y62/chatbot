@@ -1,0 +1,22 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore CUDA and Jupyter config files
+cuda/
+etc/jupyter/
+
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore other common files and folders
+*.log
+*.tmp
+
+# Ignore all JSON files (if you don't need them)
+*.json
+*.xz
